@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(218, 220, 233, 0.839);
+    box-sizing: border-box;
+}
+
+.firstPage {
+    height: 100vh ;
+    width: 100vw; 
+    background-image: url("https://preview.colorlib.com/theme/healthvest/images/bg_1.jpg.webp");
+    background-size: cover;
+}
+
+.content {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    margin-top:8%;
+    margin-left:8vw;
+    color: white;
+
+}
+
+.content p {
+    font-weight: 600;
+}
+.content h1{
+    /* height: 10%; */
+    /* border:2px solid red ; */
+    width:60%;
+    line-height:55px;
+    font-size: 5vw;
+
+}
+.content .bt-1 {
+   background-color: rgba(0, 128, 0, 0.804);
+   height:6vh;
+   border-radius: 5px;
+   border-color: transparent;
+   color: white;
+   font-size: 18px;
+   width:9%; 
+}
+.content .bt-2{
+    background-color: rgba(255, 255, 255, 0.804);
+   height:6vh;
+   border-radius: 5px;
+   border-color: transparent;
+   color: black;
+   font-size: 18px;
+   width:9%;
+   margin:2vw 2vh;
+}
+
+.secondPage{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(218, 220, 233, 0.839);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.about-img {
+    margin: 5vw;
+}
+.about-img img{
+    height:60vh;
+    width: 38vw;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    margin:5vw;
+}
+.about-text h4 {
+    color: green;
+}
+.about-text .line-1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.about-text .line-2 {
+    opacity: 0.8;
+}
+.about-text h5 {
+    font-weight: 600;
+    font-size: 30px;
+}
+.listing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.thirdPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services {
+    margin-bottom: 15vh;
+}
+.cardBox{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    align-items: center;
+    margin-right: 8vw;
+}
+ 
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.main{
+    width: 25%;
+}
+link a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    color: green;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: aqua;
+}
+
+
+
+
+.feedback{
+ background-color: #36c490;
+ 
+ display: flex;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 400px;
+}
+
+label{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius:60px;
+}
+textarea{
+    width: 100%;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.feedback .form{
+    width: 50%;
+    margin: 20px;
+    font-family: poppins;
+}
+
+
+.feedback .info {
+    width: 50%;
+    margin: 20px;
+}
+
+
+
+
+ 
